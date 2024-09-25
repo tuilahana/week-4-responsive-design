@@ -9,6 +9,7 @@ color: white;
 img { 
     float:right;
     max-width: 760px;
+    padding: 2px;
 }
 
 @media screen and (max-width:480px){
@@ -18,7 +19,6 @@ img {
     img{
         float:none;
         max-width: 100%;
-        padding: 2px;
     }
 
 }
