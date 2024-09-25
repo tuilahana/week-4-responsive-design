@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body {
+background-color: red;
+}
+main {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 2rem;
+}
+
+section {
+    background-color: white;
+    border: 3px solid black;
+    padding: 1rem;
+}
+
